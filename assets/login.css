@@ -1,0 +1,21 @@
+body.login.afs-login{--afs-blue:#0750b8;--afs-ink:#24313a;--afs-muted:#65758c;--afs-border:#dce3ed;min-height:100vh;background:radial-gradient(ellipse at top left,#e6f0ff 0,transparent 55%),#f4f6fa;color:var(--afs-ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.afs-login #login{width:min(420px,calc(100% - 40px));padding:48px 0 24px;box-sizing:border-box}
+.afs-login #login h1{margin:0 0 20px}
+.afs-login #login h1 a{background-image:url("logo-alfatih.webp");background-size:contain;background-position:center;background-repeat:no-repeat;width:240px;height:110px;margin:0 auto;text-indent:-9999px;overflow:hidden;display:block}
+.afs-login-intro{text-align:center;margin:0 0 26px}.afs-login-kicker{font-size:10px;font-weight:700;letter-spacing:.17em;color:var(--afs-blue)}.afs-login-intro h2{font-size:27px;line-height:1.35;margin:12px 0 8px;color:var(--afs-ink);overflow-wrap:anywhere}.afs-login-intro p{font-size:13px;line-height:1.7;color:var(--afs-muted);margin:6px 0}.afs-login-intro .afs-login-heading{font-size:17px;font-weight:600;color:var(--afs-ink)}
+.afs-login #login form{margin-top:0;padding:28px;border:1px solid var(--afs-border);border-radius:12px;background:#fff;box-shadow:0 12px 32px rgba(36,49,58,.06)}
+.afs-login #login form label{font-size:13px;line-height:1.7;color:var(--afs-ink)}
+.afs-login #login form .input,.afs-login #login form input[type=text],.afs-login #login form input[type=password]{border:1px solid #bac6d6;border-radius:6px;font-size:18px;padding:9px 12px;min-height:46px;background:#fff;color:var(--afs-ink);margin:6px 0 20px;max-width:100%;box-sizing:border-box}
+.afs-login #login form .wp-pwd .input{padding-right:46px}.afs-login #login form .button.wp-hide-pw{height:46px;width:44px;top:6px;color:var(--afs-blue)}
+.afs-login #login form input:focus{border-color:var(--afs-blue);box-shadow:0 0 0 1px var(--afs-blue)}
+.afs-login #login form .forgetmenot{margin-top:8px}.afs-login #login form .forgetmenot label{font-size:12px}.afs-login #login form input[type=checkbox]{border-color:#bac6d6;border-radius:3px}
+.afs-login #login .button-primary{background:var(--afs-blue);border-color:var(--afs-blue);color:#fff;border-radius:6px;padding:7px 18px;min-height:40px;font-size:13px;font-weight:600;text-shadow:none;box-shadow:none}
+.afs-login #login .button-primary:hover{background:#063f91;border-color:#063f91}.afs-login a:focus-visible,.afs-login button:focus-visible{outline:2px solid var(--afs-blue);outline-offset:3px}
+.afs-login #login .message,.afs-login #login .notice,.afs-login #login #login_error{border-radius:7px;padding:14px 16px;font-size:13px;line-height:1.6;box-shadow:none;margin:0 0 20px;overflow-wrap:anywhere}
+.afs-login #login #nav,.afs-login #login #backtoblog{padding:0;text-align:center;margin:18px 0 0;font-size:12px}.afs-login #login #nav a,.afs-login #login #backtoblog a{color:var(--afs-blue)}
+.afs-login .privacy-policy-page-link{margin:20px 0}.afs-login .language-switcher{padding-bottom:20px}
+.afs-login-footer{display:flex;flex-wrap:wrap;gap:10px 20px;justify-content:center;padding:12px 20px 28px;font-size:11px;line-height:1.6;color:var(--afs-muted)}.afs-login-footer a{color:var(--afs-blue);text-decoration:none}
+.afs-login.interim-login #login{padding-top:18px}.afs-login.interim-login #login h1 a{height:70px}.afs-login.interim-login .afs-login-intro{margin-bottom:14px}.afs-login.interim-login .afs-login-footer{display:none}
+body.rtl.afs-login #login form .wp-pwd .input{padding-right:12px;padding-left:46px}
+@media(max-width:480px){.afs-login #login{padding-top:28px}.afs-login #login h1 a{width:210px;height:96px}.afs-login #login form{padding:22px}.afs-login-intro h2{font-size:24px}}
+@media(prefers-reduced-motion:reduce){.afs-login *{scroll-behavior:auto!important}}
